@@ -33,6 +33,12 @@ var _carrotClose = _interopRequireDefault(require("./carrotClose.json"));
 
 var _recipePage_Browse_loader = _interopRequireDefault(require("./recipePage_Browse_loader.json"));
 
+var _halfSec_loader = _interopRequireDefault(require("./half-sec_loader.json"));
+
+var _kh_logo_loader_DARK = _interopRequireDefault(require("./kh_logo_loader_DARK.json"));
+
+var _kh_logo_loader_WHITE = _interopRequireDefault(require("./kh_logo_loader_WHITE.json"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // ADD import (like above) and export (like below) everytime a new animation is created
@@ -50,6 +56,9 @@ var _default = {
   sittingpadlock: _sittingpadlock.default,
   carrotOpen: _carrotOpen.default,
   carrotClose: _carrotClose.default,
-  browseLoader: _recipePage_Browse_loader.default
+  browseLoader: _recipePage_Browse_loader.default,
+  logoLoaderWhite: _kh_logo_loader_WHITE.default,
+  logoLoaderDark: _kh_logo_loader_DARK.default,
+  halfSecLoader: _halfSec_loader.default
 };
 exports.default = _default;
