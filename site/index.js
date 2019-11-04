@@ -1,37 +1,55 @@
-import logoLoader from './logoLoader.json';
-import loader from './loader.json';
-import ellipsisToX from './ellipsisToX.json';
-import mountaineering from './mountaineering.json';
-import confused from './confused.json';
-import gears from './gears.json';
-import office from './office.json';
-import computerSearch from './computer_search.json';
-import highfive from './highfive.json';
-import magnifyingGlassPaper from './magnifying-glass-paper.json';
-import sittingpadlock from './sittingpadlock.json';
-import carrotOpen from './carrotOpen.json';
-import carrotClose from './carrotClose.json';
-import browseLoader from './recipePage_Browse_loader.json';
-import half-sec_loader from './half-sec_loader.json';
-import kh_logo_loader_DARK from './kh_logo_loader_DARK.json';
-import kh_logo_loader_WHITE from './kh_logo_loader_WHITE.json';
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _logoLoader = _interopRequireDefault(require("./logoLoader.json"));
+
+var _loader = _interopRequireDefault(require("./loader.json"));
+
+var _ellipsisToX = _interopRequireDefault(require("./ellipsisToX.json"));
+
+var _mountaineering = _interopRequireDefault(require("./mountaineering.json"));
+
+var _confused = _interopRequireDefault(require("./confused.json"));
+
+var _gears = _interopRequireDefault(require("./gears.json"));
+
+var _office = _interopRequireDefault(require("./office.json"));
+
+var _computer_search = _interopRequireDefault(require("./computer_search.json"));
+
+var _highfive = _interopRequireDefault(require("./highfive.json"));
+
+var _magnifyingGlassPaper = _interopRequireDefault(require("./magnifying-glass-paper.json"));
+
+var _sittingpadlock = _interopRequireDefault(require("./sittingpadlock.json"));
+
+var _carrotOpen = _interopRequireDefault(require("./carrotOpen.json"));
+
+var _carrotClose = _interopRequireDefault(require("./carrotClose.json"));
+
+var _recipePage_Browse_loader = _interopRequireDefault(require("./recipePage_Browse_loader.json"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 // ADD import (like above) and export (like below) everytime a new animation is created
-export default {
-  loader,
-  logoLoader,
-  ellipsisToX,
-  mountaineering,
-  confused,
-  gears,
-  office,
-  computerSearch,
-  highfive,
-  magnifyingGlassPaper,
-  sittingpadlock,
-  carrotOpen,
-  carrotClose,
-  browseLoader,
-  kh_logo_loader_WHITE,
-  kh_logo_loader_DARK,
-  half-sec_loader,
+var _default = {
+  loader: _loader.default,
+  logoLoader: _logoLoader.default,
+  ellipsisToX: _ellipsisToX.default,
+  mountaineering: _mountaineering.default,
+  confused: _confused.default,
+  gears: _gears.default,
+  office: _office.default,
+  computerSearch: _computer_search.default,
+  highfive: _highfive.default,
+  magnifyingGlassPaper: _magnifyingGlassPaper.default,
+  sittingpadlock: _sittingpadlock.default,
+  carrotOpen: _carrotOpen.default,
+  carrotClose: _carrotClose.default,
+  browseLoader: _recipePage_Browse_loader.default
 };
+exports.default = _default;
