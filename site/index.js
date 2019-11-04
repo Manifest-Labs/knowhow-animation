@@ -12,7 +12,7 @@ import sittingpadlock from './sittingpadlock.json';
 import carrotOpen from './carrotOpen.json';
 import carrotClose from './carrotClose.json';
 import browseLoader from './recipePage_Browse_loader.json';
-
+// ADD import (like above) and export (like below) everytime a new animation is created
 export default {
   loader,
   logoLoader,

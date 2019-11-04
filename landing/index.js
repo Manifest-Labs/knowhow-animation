@@ -6,7 +6,7 @@ import mellenny from './millenny.json';
 import simplifyWork from './simplifyWork.json';
 import supervisorsSupport from './supervisorsSupport.json';
 import desktopMobile from './desktop-and-mobile.json';
-
+// ADD import (like above) and export (like below) everytime a new animation is created
 export default {
   attachDocs,
   centralHub,
