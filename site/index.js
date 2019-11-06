@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _logoLoader = _interopRequireDefault(require("./logoLoader.json"));
+var _kh_logoLoader = _interopRequireDefault(require("./kh_logo_loader.json"));
 
 var _loader = _interopRequireDefault(require("./loader.json"));
 
@@ -46,7 +46,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // ADD import (like above) and export (like below) everytime a new animation is created
 var _default = {
   loader: _loader.default,
-  logoLoader: _logoLoader.default,
+  logoLoader: _kh_logoLoader.default,
   ellipsisToX: _ellipsisToX.default,
   mountaineering: _mountaineering.default,
   confused: _confused.default,
