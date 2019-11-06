@@ -41,6 +41,8 @@ var _kh_logo_loader_WHITE = _interopRequireDefault(require("./kh_logo_loader_WHI
 
 var _recipePage_home_loader = _interopRequireDefault(require("./recipePage_home_loader.json"));
 
+var _browse_loader_mobile = _interopRequireDefault(require("./loading_browse_mobile.json"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // ADD import (like above) and export (like below) everytime a new animation is created
@@ -63,5 +65,6 @@ var _default = {
   logoLoaderDark: _kh_logo_loader_DARK.default,
   halfSecLoader: _halfSec_loader.default,
   recipePage_home_loader: _recipePage_home_loader.default,
+  browse_loader_mobile: _browse_loader_mobile.default,
 };
 exports.default = _default;
