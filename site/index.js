@@ -62,6 +62,6 @@ var _default = {
   logoLoaderWhite: _kh_logo_loader_WHITE.default,
   logoLoaderDark: _kh_logo_loader_DARK.default,
   halfSecLoader: _halfSec_loader.default,
-  recipePage_home_loader: _recipePage_home_loader,
+  recipePage_home_loader: _recipePage_home_loader.default,
 };
 exports.default = _default;
