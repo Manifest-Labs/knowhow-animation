@@ -45,6 +45,8 @@ var _browse_loader_mobile = _interopRequireDefault(require("./loading_browse_mob
 
 var _recipeDetail_loader = _interopRequireDefault(require("./loading_recipe_detail.json"));
 
+var _typing = _interopRequireDefault(require("./typing.json"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // ADD import (like above) and export (like below) everytime a new animation is created
@@ -69,5 +71,6 @@ var _default = {
   recipePage_home_loader: _recipePage_home_loader.default,
   browse_loader_mobile: _browse_loader_mobile.default,
   recipeDetail_loader: _recipeDetail_loader.default,
+  typing: _typing.default,
 };
 exports.default = _default;
