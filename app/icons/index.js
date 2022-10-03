@@ -7,11 +7,11 @@ exports.default = void 0;
 
 // App
 // Icons: Contains icons such as loaders, carrots, typing and ellipsis. 
-var _icons_carrotClose = _interopRequireDefault(require("./carrotClose.json"));
-var _icons_carrotOpen = _interopRequireDefault(require("./carrotOpen.json"));
-var _icons_ellipsisToX = _interopRequireDefault(require("./ellipsisToX.json"));
-var _icons_halfSecLoader = _interopRequireDefault(require("./half-sec_loader.json"));
-var _icons_typing = _interopRequireDefault(require("./typing.json"));
+var _carrotClose = _interopRequireDefault(require("./carrotClose.json"));
+var _carrotOpen = _interopRequireDefault(require("./carrotOpen.json"));
+var _ellipsisToX = _interopRequireDefault(require("./ellipsisToX.json"));
+var _halfSecLoader = _interopRequireDefault(require("./half-sec_loader.json"));
+var _typing = _interopRequireDefault(require("./typing.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -19,10 +19,10 @@ function _interopRequireDefault(obj) {
 
 // ADD import (like above) and export (like below) everytime a new animation is created
 var _default = {
-  icons_carrotClose: _icons_carrotClose.default,
-  icons_carrotOpen: _icons_carrotOpen.default,
-  icons_ellipsisToX: _icons_ellipsisToX.default,
-  icons_halfSecLoader: _icons_halfSecLoader.default,
-  icons_typing: _icons_typing.default,
+  icons_carrotClose: _carrotClose.default,
+  icons_carrotOpen: _carrotOpen.default,
+  icons_ellipsisToX: _ellipsisToX.default,
+  icons_halfSecLoader: _halfSecLoader.default,
+  icons_typing: _typing.default,
 };
 exports.default = _default;
