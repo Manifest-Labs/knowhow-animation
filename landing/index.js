@@ -6,14 +6,14 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 // Landing
-var _landing_attachDocs = _interopRequireDefault(require("./landing/LP_attachDocs.json"));
-var _landing_centralHub = _interopRequireDefault(require("./landing/LP_centralHub.json"));
-var _landing_editing = _interopRequireDefault(require("./landing/LP_editing.json"));
-var _landing_insights = _interopRequireDefault(require("./landing/LP_insights.json"));
-var _landing_millenny = _interopRequireDefault(require("./landing/millenny.json"));
-var _landing_simplifyWork = _interopRequireDefault(require("./landing/simplifyWork.json"));
-var _landing_supervisorsSupport = _interopRequireDefault(require("./landing/supervisorsSupport.json"));
-var _landing_desktopAndMobile = _interopRequireDefault(require("./landing/desktop-and-mobile.json"));
+var _landing_attachDocs = _interopRequireDefault(require("./LP_attachDocs.json"));
+var _landing_centralHub = _interopRequireDefault(require("./LP_centralHub.json"));
+var _landing_editing = _interopRequireDefault(require("./LP_editing.json"));
+var _landing_insights = _interopRequireDefault(require("./LP_insights.json"));
+var _landing_millenny = _interopRequireDefault(require("./millenny.json"));
+var _landing_simplifyWork = _interopRequireDefault(require("./simplifyWork.json"));
+var _landing_supervisorsSupport = _interopRequireDefault(require("./supervisorsSupport.json"));
+var _landing_desktopAndMobile = _interopRequireDefault(require("./desktop-and-mobile.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };

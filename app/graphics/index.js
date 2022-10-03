@@ -7,14 +7,14 @@ exports.default = void 0;
 
 // App
 // Graphics: Contains graphics such as animated people.
-var _graphics_computerSearch = _interopRequireDefault(require("./app/graphics/computer_search.json"));
-var _graphics_confused = _interopRequireDefault(require("./app/graphics/confused.json"));
-var _graphics_gears = _interopRequireDefault(require("./app/graphics/gears.json"));
-var _graphics_highfive = _interopRequireDefault(require("./app/graphics/highfive.json"));
-var _graphics_magnifyingGlass = _interopRequireDefault(require("./app/graphics/magnifying-glass-paper.json"));
-var _graphics_mountaineering = _interopRequireDefault(require("./app/graphics/mountaineering.json"));
-var _graphics_office = _interopRequireDefault(require("./app/graphics/office.json"));
-var _graphics_sittingPadlock = _interopRequireDefault(require("./app/graphics/sittingpadlock.json"));
+var _graphics_computerSearch = _interopRequireDefault(require("./computer_search.json"));
+var _graphics_confused = _interopRequireDefault(require("./confused.json"));
+var _graphics_gears = _interopRequireDefault(require("./gears.json"));
+var _graphics_highfive = _interopRequireDefault(require("./highfive.json"));
+var _graphics_magnifyingGlass = _interopRequireDefault(require("./magnifying-glass-paper.json"));
+var _graphics_mountaineering = _interopRequireDefault(require("./mountaineering.json"));
+var _graphics_office = _interopRequireDefault(require("./office.json"));
+var _graphics_sittingPadlock = _interopRequireDefault(require("./sittingpadlock.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };

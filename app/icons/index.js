@@ -7,11 +7,11 @@ exports.default = void 0;
 
 // App
 // Icons: Contains icons such as loaders, carrots, typing and ellipsis. 
-var _icons_carrotClose = _interopRequireDefault(require("./app/icons/carrotClose.json"));
-var _icons_carrotOpen = _interopRequireDefault(require("./app/icons/carrotOpen.json"));
-var _icons_ellipsisToX = _interopRequireDefault(require("./app/icons/ellipsisToX.json"));
-var _icons_halfSecLoader = _interopRequireDefault(require("./app/icons/half-sec_loader.json"));
-var _icons_typing = _interopRequireDefault(require("./app/icons/typing.json"));
+var _icons_carrotClose = _interopRequireDefault(require("./carrotClose.json"));
+var _icons_carrotOpen = _interopRequireDefault(require("./carrotOpen.json"));
+var _icons_ellipsisToX = _interopRequireDefault(require("./ellipsisToX.json"));
+var _icons_halfSecLoader = _interopRequireDefault(require("./half-sec_loader.json"));
+var _icons_typing = _interopRequireDefault(require("./typing.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };

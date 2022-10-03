@@ -7,11 +7,11 @@ exports.default = void 0;
 
 // App
 // Logos: Different animations that are done using the knowhow logo.
-var _logos_khDark = _interopRequireDefault(require("./app/logos/kh_logo_loader_DARK.json"));
-var _logos_khWhite = _interopRequireDefault(require("./app/logos/kh_logo_loader_WHITE.json"));
-var _logos_khLoader = _interopRequireDefault(require("./app/logos/kh_logo_loader.json"));
-var _logos_loader = _interopRequireDefault(require("./app/logos/loader.json"));
-var _logos_logoLoader = _interopRequireDefault(require("./app/logos/logoLoader.json"));
+var _logos_khDark = _interopRequireDefault(require("./kh_logo_loader_DARK.json"));
+var _logos_khWhite = _interopRequireDefault(require("./kh_logo_loader_WHITE.json"));
+var _logos_khLoader = _interopRequireDefault(require("./kh_logo_loader.json"));
+var _logos_loader = _interopRequireDefault(require("./loader.json"));
+var _logos_logoLoader = _interopRequireDefault(require("./logoLoader.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };

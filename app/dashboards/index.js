@@ -7,27 +7,27 @@ exports.default = void 0;
 
 // App
 // Dashboards: Table, processes and graph loaders that are generally used in dashboard settings.
-var _app_dashboards_activityFeed = _interopRequireDefault(require("./app/dashboards/Activity Feed-2.json"));
-var _app_dashboards_assignedToMe = _interopRequireDefault(require("./app/dashboards/Assigned to Me.json"));
-var _app_dashboards_assignment = _interopRequireDefault(require("./app/dashboards/assignment.json"));
-var _app_dashboards_bookmarkSection = _interopRequireDefault(require("./app/dashboards/Bookmark Section-2.json"));
-var _app_dashboards_engagement = _interopRequireDefault(require("./app/dashboards/engagement.json"));
-var _app_dashboards_expertise = _interopRequireDefault(require("./app/dashboards/Expertise-2.json"));
-var _app_dashboards_feed = _interopRequireDefault(require("./app/dashboards/feed.json"));
-var _app_dashboards_gridView = _interopRequireDefault(require("./app/dashboards/Grid View Stacked.json"));
-var _app_dashboards_listView = _interopRequireDefault(require("./app/dashboards/List View Section.json"));
-var _app_dashboards_loadingMobile = _interopRequireDefault(require("./app/dashboards/loading_browse_mobile.json"));
-var _app_dashboards_loadingRecipe = _interopRequireDefault(require("./app/dashboards/loading_recipe_detail.json"));
-var _app_dashboards_myProcesses = _interopRequireDefault(require("./app/dashboards/My Processes.json"));
-var _app_dashboards_myWorkflows = _interopRequireDefault(require("./app/dashboards/My Workflows.json"));
-var _app_dashboards_processManagerList = _interopRequireDefault(require("./app/dashboards/Process Manager List-2.json"));
-var _app_dashboards_recipeBrowseLoader = _interopRequireDefault(require("./app/dashboards/recipePage_Browse_loader.json"));
-var _app_dashboards_recipeHomeLoader = _interopRequireDefault(require("./app/dashboards/recipePage_home_loader.json"));
-var _app_dashboards_toDo = _interopRequireDefault(require("./app/dashboards/To-do List.json"));
-var _app_dashboards_top5 = _interopRequireDefault(require("./app/dashboards/top5.json"));
-var _app_dashboards_workflowStandalone = _interopRequireDefault(require("./app/dashboards/Workflow Standalone.json"));
-var _app_dashboards_workflowWhole = _interopRequireDefault(require("./app/dashboards/Workflow Whole.json"));
-var _app_dashboards_workflows = _interopRequireDefault(require("./app/dashboards/Workflows-4.json"));
+var _app_dashboards_activityFeed = _interopRequireDefault(require("./Activity Feed-2.json"));
+var _app_dashboards_assignedToMe = _interopRequireDefault(require("./Assigned to Me.json"));
+var _app_dashboards_assignment = _interopRequireDefault(require("./assignment.json"));
+var _app_dashboards_bookmarkSection = _interopRequireDefault(require("./Bookmark Section-2.json"));
+var _app_dashboards_engagement = _interopRequireDefault(require("./engagement.json"));
+var _app_dashboards_expertise = _interopRequireDefault(require("./Expertise-2.json"));
+var _app_dashboards_feed = _interopRequireDefault(require("./feed.json"));
+var _app_dashboards_gridView = _interopRequireDefault(require("./Grid View Stacked.json"));
+var _app_dashboards_listView = _interopRequireDefault(require("./List View Section.json"));
+var _app_dashboards_loadingMobile = _interopRequireDefault(require("./loading_browse_mobile.json"));
+var _app_dashboards_loadingRecipe = _interopRequireDefault(require("./loading_recipe_detail.json"));
+var _app_dashboards_myProcesses = _interopRequireDefault(require("./My Processes.json"));
+var _app_dashboards_myWorkflows = _interopRequireDefault(require("./My Workflows.json"));
+var _app_dashboards_processManagerList = _interopRequireDefault(require("./Process Manager List-2.json"));
+var _app_dashboards_recipeBrowseLoader = _interopRequireDefault(require("./recipePage_Browse_loader.json"));
+var _app_dashboards_recipeHomeLoader = _interopRequireDefault(require("./recipePage_home_loader.json"));
+var _app_dashboards_toDo = _interopRequireDefault(require("./To-do List.json"));
+var _app_dashboards_top5 = _interopRequireDefault(require("./top5.json"));
+var _app_dashboards_workflowStandalone = _interopRequireDefault(require("./Workflow Standalone.json"));
+var _app_dashboards_workflowWhole = _interopRequireDefault(require("./Workflow Whole.json"));
+var _app_dashboards_workflows = _interopRequireDefault(require("./Workflows-4.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
