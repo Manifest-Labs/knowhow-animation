@@ -21,13 +21,13 @@ function _interopRequireDefault(obj) {
 
 // ADD import (like above) and export (like below) everytime a new animation is created
 var _default = {
-  landing_attachDocs: _attachDocs.default,
-  landing_centralHub: _centralHub.default,
-  landing_editing: _editing.default,
-  landing_insights: _insights.default,
-  landing_millenny: _millenny.default,
-  landing_simplifyWork: _simplifyWork.default,
-  landing_supervisorsSupport: _supervisorsSupport.default,
-  landing_desktopAndMobile: _desktopAndMobile.default,
+  attachDocs: _attachDocs.default,
+  centralHub: _centralHub.default,
+  editing: _editing.default,
+  insights: _insights.default,
+  millenny: _millenny.default,
+  simplifyWork: _simplifyWork.default,
+  supervisorsSupport: _supervisorsSupport.default,
+  desktopAndMobile: _desktopAndMobile.default,
 };
 exports.default = _default;

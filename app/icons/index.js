@@ -19,10 +19,10 @@ function _interopRequireDefault(obj) {
 
 // ADD import (like above) and export (like below) everytime a new animation is created
 var _default = {
-  icons_carrotClose: _carrotClose.default,
-  icons_carrotOpen: _carrotOpen.default,
-  icons_ellipsisToX: _ellipsisToX.default,
-  icons_halfSecLoader: _halfSecLoader.default,
-  icons_typing: _typing.default,
+  carrotClose: _carrotClose.default,
+  carrotOpen: _carrotOpen.default,
+  ellipsisToX: _ellipsisToX.default,
+  halfSecLoader: _halfSecLoader.default,
+  typing: _typing.default,
 };
 exports.default = _default;

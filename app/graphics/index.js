@@ -22,13 +22,13 @@ function _interopRequireDefault(obj) {
 
 // ADD import (like above) and export (like below) everytime a new animation is created
 var _default = {
-  graphics_computerSearch: _computerSearch.default,
-  graphics_confused: _confused.default,
-  graphics_gears: _gears.default,
-  graphics_highfive: _highfive.default,
-  graphics_magnifyingGlass: _magnifyingGlass.default,
-  graphics_mountaineering: _mountaineering.default,
-  graphics_office: _office.default,
-  graphics_sittingPadlock: _sittingPadlock.default,
+  computerSearch: _computerSearch.default,
+  confused: _confused.default,
+  gears: _gears.default,
+  highfive: _highfive.default,
+  magnifyingGlass: _magnifyingGlass.default,
+  mountaineering: _mountaineering.default,
+  office: _office.default,
+  sittingPadlock: _sittingPadlock.default,
 };
 exports.default = _default;

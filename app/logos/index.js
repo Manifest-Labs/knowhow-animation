@@ -19,10 +19,10 @@ function _interopRequireDefault(obj) {
 
 // ADD import (like above) and export (like below) everytime a new animation is created
 var _default = {
-  logos_khDark: _khDark.default,
-  logos_khWhite: _khWhite.default,
-  logos_khLoader: _khLoader.default,
-  logos_loader: _loader.default,
-  logos_logoLoader: _logoLoader.default,
+  khDark: _khDark.default,
+  khWhite: _khWhite.default,
+  khLoader: _khLoader.default,
+  loader: _loader.default,
+  logoLoader: _logoLoader.default,
 };
 exports.default = _default;

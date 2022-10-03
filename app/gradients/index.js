@@ -15,6 +15,6 @@ function _interopRequireDefault(obj) {
 
 // ADD import (like above) and export (like below) everytime a new animation is created
 var _default = {
-  gradients_gradient: _gradient.default,
+  gradient: _gradient.default,
 };
 exports.default = _default;
