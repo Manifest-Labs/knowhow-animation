@@ -28,6 +28,7 @@ var _top5 = _interopRequireDefault(require("./top5.json"));
 var _workflowStandalone = _interopRequireDefault(require("./Workflow Standalone.json"));
 var _workflowWhole = _interopRequireDefault(require("./Workflow Whole.json"));
 var _workflows = _interopRequireDefault(require("./Workflows-4.json"));
+var _templateManager = _interopRequireDefault(require("./templateManager.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -56,5 +57,6 @@ var _default = {
   workflowStandalone: _workflowStandalone.default,
   workflowWhole: _workflowWhole.default,
   workflows: _workflows.default,
+  templateManager: _templateManager.default,
 };
 exports.default = _default;
