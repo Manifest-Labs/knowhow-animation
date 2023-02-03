@@ -29,6 +29,8 @@ var _workflowStandalone = _interopRequireDefault(require("./Workflow Standalone.
 var _workflowWhole = _interopRequireDefault(require("./Workflow Whole.json"));
 var _workflows = _interopRequireDefault(require("./Workflows-4.json"));
 var _templateManager = _interopRequireDefault(require("./templateManager.json"));
+var _badgeWidget = _interopRequireDefault(require("./badges-widget.json"));
+var _badgeViewAll = _interopRequireDefault(require("./badges-viewall.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -58,5 +60,7 @@ var _default = {
   workflowWhole: _workflowWhole.default,
   workflows: _workflows.default,
   templateManager: _templateManager.default,
+  badgeWidget: _badgeWidget.default,
+  badgeViewAll: _badgeViewAll.default,
 };
 exports.default = _default;
