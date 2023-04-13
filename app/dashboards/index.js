@@ -31,6 +31,8 @@ var _workflows = _interopRequireDefault(require("./Workflows-4.json"));
 var _templateManager = _interopRequireDefault(require("./templateManager.json"));
 var _badgeWidget = _interopRequireDefault(require("./badges-widget.json"));
 var _badgeViewAll = _interopRequireDefault(require("./badges-viewall.json"));
+var _magicSearchLoaderLarge = _interopRequireDefault(require("./magic_search_loader_large.json"));
+var _magicSearchLoaderSmall = _interopRequireDefault(require("./magic_search_loader_small.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -62,5 +64,7 @@ var _default = {
   templateManager: _templateManager.default,
   badgeWidget: _badgeWidget.default,
   badgeViewAll: _badgeViewAll.default,
+  magicSearchLoaderLarge: _magicSearchLoaderLarge.default,
+  magicSearchLoaderSmall: _magicSearchLoaderSmall.default,
 };
 exports.default = _default;
