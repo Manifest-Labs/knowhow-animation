@@ -33,6 +33,10 @@ var _badgeWidget = _interopRequireDefault(require("./badges-widget.json"));
 var _badgeViewAll = _interopRequireDefault(require("./badges-viewall.json"));
 var _magicSearchLoaderLarge = _interopRequireDefault(require("./magic_search_loader_large.json"));
 var _magicSearchLoaderSmall = _interopRequireDefault(require("./magic_search_loader_small.json"));
+var _magicSearchMobilePrimary = _interopRequireDefault(require("./magic_search_mobile_primary.json"));
+var _magicSearchMobileSecondary = _interopRequireDefault(require("./magic_search_mobile_secondary.json"));
+var _magicSearchTabletPrimary = _interopRequireDefault(require("./magic_search_tablet_primary.json"));
+var _magicSearchTabletSecondary = _interopRequireDefault(require("./magic_search_tablet_secondary.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -66,5 +70,9 @@ var _default = {
   badgeViewAll: _badgeViewAll.default,
   magicSearchLoaderLarge: _magicSearchLoaderLarge.default,
   magicSearchLoaderSmall: _magicSearchLoaderSmall.default,
+  magicSearchMobilePrimary: _magicSearchMobilePrimary.default,
+  magicSearchMobileSecondary: _magicSearchMobileSecondary.default,
+  magicSearchTabletPrimary: _magicSearchTabletPrimary.default,
+  magicSearchTabletSecondary: _magicSearchTabletSecondary.default,
 };
 exports.default = _default;
