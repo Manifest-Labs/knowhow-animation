@@ -20,3 +20,10 @@ Within the app folder we are going to have:
 - Logos → different animations that are done using the knowhow logo.
 
 Each folder contains their own index.js file which includes the imports to be used in the different repositories (mobile, desktop and landing).
+
+## HOW TO ADD NEW LOTTIES
+1. Add the lottie files to the folder according to the folder organization above.
+2. In the `index.js` file in the folder you added the lottie create a new `_variable` to refer to the lottie file and then also update the `_default` export file with this newly created `_variable`
+3. Create a new release. For small changes we just add a decimal to the release.
+4. With the new release number make sure you update the app and desktop repositories `package.json`
+5. You should be able to use the lottie files now in your work.
