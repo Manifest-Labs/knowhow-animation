@@ -98,9 +98,9 @@ var _default = {
   magicSearchTabletPrimary: _magicSearchTabletPrimary.default,
   magicSearchTabletSecondary: _magicSearchTabletSecondary.default,
   magicSearchMobileBoxV2: _magicSearchMobileBoxV2.default,
-  magicSearchDesktopBoxV2: _magicSearchMobileBoxV2.default,
-  magicSearchMobileProcess: _magicSearchMobileBoxV2.default,
-  magicSearchDesktopProcess: _magicSearchMobileBoxV2.default,
+  magicSearchDesktopBoxV2: _magicSearchDesktopBoxV2.default,
+  magicSearchMobileProcess: _magicSearchMobileProcess.default,
+  magicSearchDesktopProcess: _magicSearchDesktopProcess.default,
   franchiseBuildingConstruction: _franchiseBuildingConstruction.default,
 };
 exports.default = _default;
