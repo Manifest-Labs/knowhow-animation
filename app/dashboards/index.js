@@ -47,24 +47,16 @@ var _templateManager = _interopRequireDefault(
 );
 var _badgeWidget = _interopRequireDefault(require("./badges-widget.json"));
 var _badgeViewAll = _interopRequireDefault(require("./badges-viewall.json"));
-var _magicSearchLoaderLarge = _interopRequireDefault(
-  require("./magic_search_desktop_box_primary.json")
-);
-var _magicSearchLoaderSmall = _interopRequireDefault(
-  require("./magic_search_desktop_box_secondary.json")
-);
-var _magicSearchMobilePrimary = _interopRequireDefault(
-  require("./magic_search_mobile_box_primary.json")
-);
-var _magicSearchMobileSecondary = _interopRequireDefault(
-  require("./magic_search_mobile_box_secondary.json")
-);
-var _magicSearchTabletPrimary = _interopRequireDefault(
-  require("./magic_search_tablet_box_primary.json")
-);
-var _magicSearchTabletSecondary = _interopRequireDefault(
-  require("./magic_search_tablet_box_secondary.json")
-);
+var _magicSearchLoaderLarge = _interopRequireDefault(require("./magic_search_desktop_box_primary.json"));
+var _magicSearchLoaderSmall = _interopRequireDefault(require("./magic_search_desktop_box_secondary.json"));
+var _magicSearchMobilePrimary = _interopRequireDefault(require("./magic_search_mobile_box_primary.json"));
+var _magicSearchMobileSecondary = _interopRequireDefault(require("./magic_search_mobile_box_secondary.json"));
+var _magicSearchTabletPrimary = _interopRequireDefault(require("./magic_search_tablet_box_primary.json"));
+var _magicSearchTabletSecondary = _interopRequireDefault(require("./magic_search_tablet_box_secondary.json"));
+var _magicSearchMobileBoxV2 = _interopRequireDefault(require("./magic_search_mobile_box_v2.json"));
+var _magicSearchDesktopBoxV2 = _interopRequireDefault(require("./magic_search_desktop_box_v2.json"));
+var _magicSearchMobileProcess = _interopRequireDefault(require("./magic_search_mobile_process.json"));
+var _magicSearchDesktopProcess = _interopRequireDefault(require("./magic_search_desktop_process.json"));
 var _franchiseBuildingConstruction = _interopRequireDefault(
   require("./franchise_building_construction.json")
 );
@@ -105,6 +97,10 @@ var _default = {
   magicSearchMobileSecondary: _magicSearchMobileSecondary.default,
   magicSearchTabletPrimary: _magicSearchTabletPrimary.default,
   magicSearchTabletSecondary: _magicSearchTabletSecondary.default,
+  magicSearchMobileBoxV2: _magicSearchMobileBoxV2.default,
+  magicSearchDesktopBoxV2: _magicSearchMobileBoxV2.default,
+  magicSearchMobileProcess: _magicSearchMobileBoxV2.default,
+  magicSearchDesktopProcess: _magicSearchMobileBoxV2.default,
   franchiseBuildingConstruction: _franchiseBuildingConstruction.default,
 };
 exports.default = _default;
