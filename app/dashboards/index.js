@@ -57,6 +57,8 @@ var _magicSearchMobileBoxV2 = _interopRequireDefault(require("./magic_search_mob
 var _magicSearchDesktopBoxV2 = _interopRequireDefault(require("./magic_search_desktop_box_v2.json"));
 var _magicSearchMobileProcess = _interopRequireDefault(require("./magic_search_mobile_process.json"));
 var _magicSearchDesktopProcess = _interopRequireDefault(require("./magic_search_desktop_process.json"));
+var _magicSearchIpadTop = _interopRequireDefault(require("./magic_search_ipad_top.json"));
+var _magicSearchIpadBottom = _interopRequireDefault(require("./magic_search_ipad_bottom.json"));
 var _franchiseBuildingConstruction = _interopRequireDefault(
   require("./franchise_building_construction.json")
 );
@@ -98,9 +100,11 @@ var _default = {
   magicSearchTabletPrimary: _magicSearchTabletPrimary.default,
   magicSearchTabletSecondary: _magicSearchTabletSecondary.default,
   magicSearchMobileBoxV2: _magicSearchMobileBoxV2.default,
-  magicSearchDesktopBoxV2: _magicSearchMobileBoxV2.default,
-  magicSearchMobileProcess: _magicSearchMobileBoxV2.default,
-  magicSearchDesktopProcess: _magicSearchMobileBoxV2.default,
+  magicSearchDesktopBoxV2: _magicSearchDesktopBoxV2.default,
+  magicSearchMobileProcess: _magicSearchMobileProcess.default,
+  magicSearchDesktopProcess: _magicSearchDesktopProcess.default,
+  magicSearchIpadTop: _magicSearchIpadTop.default,
+  magicSearchIpadBottom: _magicSearchIpadBottom.default,
   franchiseBuildingConstruction: _franchiseBuildingConstruction.default,
 };
 exports.default = _default;
