@@ -89,6 +89,9 @@ var _franchiseBuildingConstruction = _interopRequireDefault(
 var _autogenerateAssessmentQuestionsDesktop = _interopRequireDefault(
   require("./autogenerate_assessment_questions_desktop.json")
 );
+var _adminNameList = _interopRequireDefault(require("./admin_name_list.json"));
+var _memberLoginChart = _interopRequireDefault(require("./member_login_chart.json"));
+var _memberNameList = _interopRequireDefault(require("./member_name_list.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -135,5 +138,8 @@ var _default = {
   franchiseBuildingConstruction: _franchiseBuildingConstruction.default,
   autogenerateAssessmentQuestionsDesktop:
     _autogenerateAssessmentQuestionsDesktop.default,
+  adminNameList: _adminNameList.default,
+  memberLoginChart: _memberLoginChart.default,
+  memberNameList: _memberNameList.default,
 };
 exports.default = _default;
