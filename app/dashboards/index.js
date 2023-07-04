@@ -83,6 +83,9 @@ var _magicSearchIpadTop = _interopRequireDefault(
 var _magicSearchIpadBottom = _interopRequireDefault(
   require("./magic_search_ipad_bottom.json")
 );
+var _magicSearchDashboardMagnifyingGlass = _interopRequireDefault(
+  require("./magic_search_dashboard_magnifying_glass.json")
+);
 var _franchiseBuildingConstruction = _interopRequireDefault(
   require("./franchise_building_construction.json")
 );
@@ -135,6 +138,7 @@ var _default = {
   magicSearchDesktopProcess: _magicSearchDesktopProcess.default,
   magicSearchIpadTop: _magicSearchIpadTop.default,
   magicSearchIpadBottom: _magicSearchIpadBottom.default,
+  magicSearchDashboardMagnifyingGlass: _magicSearchDashboardMagnifyingGlass.default,
   franchiseBuildingConstruction: _franchiseBuildingConstruction.default,
   autogenerateAssessmentQuestionsDesktop:
     _autogenerateAssessmentQuestionsDesktop.default,
