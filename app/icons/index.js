@@ -12,6 +12,7 @@ var _carrotOpen = _interopRequireDefault(require("./carrotOpen.json"));
 var _ellipsisToX = _interopRequireDefault(require("./ellipsisToX.json"));
 var _halfSecLoader = _interopRequireDefault(require("./half-sec_loader.json"));
 var _typing = _interopRequireDefault(require("./typing.json"));
+var _qrCode = _interopRequireDefault(require("./qrCode.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -24,5 +25,6 @@ var _default = {
   ellipsisToX: _ellipsisToX.default,
   halfSecLoader: _halfSecLoader.default,
   typing: _typing.default,
+  qrCode: _qrCode.default,
 };
 exports.default = _default;
