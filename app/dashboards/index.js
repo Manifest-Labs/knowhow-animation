@@ -95,6 +95,9 @@ var _autogenerateAssessmentQuestionsDesktop = _interopRequireDefault(
 var _adminNameList = _interopRequireDefault(require("./admin_name_list.json"));
 var _memberLoginChart = _interopRequireDefault(require("./member_login_chart.json"));
 var _memberNameList = _interopRequireDefault(require("./member_name_list.json"));
+var _workflowsDashboardTeamMembersLoading = _interopRequireDefault("./workflows_dashboard_team_members_loading.json")
+var _workflowsDashboardTemplatesLoading = _interopRequireDefault("./workflows_dashboard_templates_loading.json")
+var _workflowsDashboardActiveLoading = _interopRequireDefault("./workflows_dashboard_active_loading.json")
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -145,5 +148,8 @@ var _default = {
   adminNameList: _adminNameList.default,
   memberLoginChart: _memberLoginChart.default,
   memberNameList: _memberNameList.default,
+  workflowsDashboardTeamMembersLoading: _workflowsDashboardTeamMembersLoading.default,
+  workflowsDashboardTemplatesLoading: _workflowsDashboardTemplatesLoading.default,
+  workflowsDashboardActiveLoading: _workflowsDashboardActiveLoading.default
 };
 exports.default = _default;
