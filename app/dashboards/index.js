@@ -133,6 +133,9 @@ var _insightsDashboardTopMembers = _interopRequireDefault(
 var _insightsDashboardViewAssignments = _interopRequireDefault(
   require("./insights_view_assignments.json")
 );
+var _insightsDashboardViewAssignmentsDetail = _interopRequireDefault(
+  require("./insights_view_assignments_detail.json")
+);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -200,5 +203,7 @@ var _default = {
   insightsDashboardTopMembers: _insightsDashboardTopMembers.default,
   insightsDashboardViewAssignments:
     _insightsDashboardViewAssignments.default,
+  insightsDashboardViewAssignmentsDetail:
+    _insightsDashboardViewAssignmentsDetail.default,
 };
 exports.default = _default;
