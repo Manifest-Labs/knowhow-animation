@@ -120,7 +120,9 @@ var _workflowsMobileStepList = _interopRequireDefault(
 var _insightsDashboardActivity = _interopRequireDefault(
   require("./insights_activity.json")
 );
-var _insightsDashboardCharts = _interopRequireDefault(require("./insights_charts.json"));
+var _insightsDashboardCharts = _interopRequireDefault(
+  require("./insights_charts.json")
+);
 var _insightsDashboardMainChart = _interopRequireDefault(
   require("./insights_main_chart.json")
 );
@@ -135,6 +137,18 @@ var _insightsDashboardViewAssignments = _interopRequireDefault(
 );
 var _insightsDashboardViewAssignmentsDetail = _interopRequireDefault(
   require("./insights_view_assignments_detail.json")
+);
+var _insightsMemberInfoSidePeekChart = _interopRequireDefault(
+  require("./insights_member_info_sidepeek_chart.json")
+);
+var _insightsMemberInfoSidePeekOverdue = _interopRequireDefault(
+  require("./insights_member_info_sidepeek_overdue.json")
+);
+var _insightsMemberInfoSidePeekSearches = _interopRequireDefault(
+  require("./insights_member_info_sidepeek_searches.json")
+);
+var _insightsMemberInfoSidePeekTags = _interopRequireDefault(
+  require("./insights_member_info_sidepeek_tags.json")
 );
 
 function _interopRequireDefault(obj) {
@@ -201,9 +215,11 @@ var _default = {
   insightsDashboardMainChart: _insightsDashboardMainChart.default,
   insightsDashboardMemberList: _insightsDashboardMemberList.default,
   insightsDashboardTopMembers: _insightsDashboardTopMembers.default,
-  insightsDashboardViewAssignments:
-    _insightsDashboardViewAssignments.default,
-  insightsDashboardViewAssignmentsDetail:
-    _insightsDashboardViewAssignmentsDetail.default,
+  insightsDashboardViewAssignments: _insightsDashboardViewAssignments.default,
+  insightsMemberInfoSidePeekChart: _insightsMemberInfoSidePeekChart.default,
+  insightsMemberInfoSidePeekOverdue: _insightsMemberInfoSidePeekOverdue.default,
+  insightsMemberInfoSidePeekSearches:
+    _insightsMemberInfoSidePeekSearches.default,
+  insightsMemberInfoSidePeekTags: _insightsMemberInfoSidePeekTags.default,
 };
 exports.default = _default;
