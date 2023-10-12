@@ -139,16 +139,16 @@ var _insightsDashboardViewAssignmentsDetail = _interopRequireDefault(
   require("./insights_view_assignments_detail.json")
 );
 var _insightsMemberInfoSidePeekChart = _interopRequireDefault(
-  require("./sidepeek_chart_loading.json")
+  require("./insights_member_info_sidepeek_chart.json")
 );
 var _insightsMemberInfoSidePeekOverdue = _interopRequireDefault(
-  require("./sidepeek_overdue.json")
+  require("./insights_member_info_sidepeek_overdue.json")
 );
 var _insightsMemberInfoSidePeekSearches = _interopRequireDefault(
-  require("./sidepeek_searches.json")
+  require("./insights_member_info_sidepeek_searches.json")
 );
 var _insightsMemberInfoSidePeekTags = _interopRequireDefault(
-  require("./sidepeek_tags.json")
+  require("./insights_member_info_sidepeek_tags.json")
 );
 
 function _interopRequireDefault(obj) {
