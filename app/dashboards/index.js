@@ -216,6 +216,7 @@ var _default = {
   insightsDashboardMemberList: _insightsDashboardMemberList.default,
   insightsDashboardTopMembers: _insightsDashboardTopMembers.default,
   insightsDashboardViewAssignments: _insightsDashboardViewAssignments.default,
+  insightsDashboardViewAssignmentsDetail: _insightsDashboardViewAssignmentsDetail.default,
   insightsMemberInfoSidePeekChart: _insightsMemberInfoSidePeekChart.default,
   insightsMemberInfoSidePeekOverdue: _insightsMemberInfoSidePeekOverdue.default,
   insightsMemberInfoSidePeekSearches:
