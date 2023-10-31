@@ -150,6 +150,78 @@ var _insightsMemberInfoSidePeekSearches = _interopRequireDefault(
 var _insightsMemberInfoSidePeekTags = _interopRequireDefault(
   require("./insights_member_info_sidepeek_tags.json")
 );
+var _userDashboardBadgeSectionDesktop = _interopRequireDefault(
+  require("./user_dashboard_badge_section_desktop.json")
+);
+var _userDashboardBadgeSectionMobile = _interopRequireDefault(
+  require("./user_dashboard_badge_section_mobile.json")
+);
+var _userDashboardBadgeSectionTablet = _interopRequireDefault(
+  require("./user_dashboard_badge_section_tablet.json")
+);
+var _userDashboardNumberDesktop = _interopRequireDefault(
+  require("./user_dashboard_number_desktop.json")
+);
+var _userDashboardNumberMobile = _interopRequireDefault(
+  require("./user_dashboard_number_mobile.json")
+);
+var _userDashboardNumberTablet = _interopRequireDefault(
+  require("./user_dashboard_number_tablet.json")
+);
+var _userDashboardProcessCardDesktop = _interopRequireDefault(
+  require("./user_dashboard_process_card_desktop.json")
+);
+var _userDashboardProcessCardMobile = _interopRequireDefault(
+  require("./user_dashboard_process_card_mobile.json")
+);
+var _userDashboardProcessCardTablet = _interopRequireDefault(
+  require("./user_dashboard_process_card_tablet.json")
+);
+var _userDashboardProcessRecommendDesktop = _interopRequireDefault(
+  require("./user_dashboard_process_recommend_desktop.json")
+);
+var _userDashboardProcessRecommendMobile = _interopRequireDefault(
+  require("./user_dashboard_process_recommend_mobile.json")
+);
+var _userDashboardProcessRecommendTablet = _interopRequireDefault(
+  require("./user_dashboard_process_recommend_tablet.json")
+);
+var _userDashboardProgressBarDesktop = _interopRequireDefault(
+  require("./user_dashboard_progress_bar_desktop.json")
+);
+var _userDashboardProgressBarMobile = _interopRequireDefault(
+  require("./user_dashboard_progress_bar_mobile.json")
+);
+var _userDashboardProgressBarTablet = _interopRequireDefault(
+  require("./user_dashboard_progress_bar_tablet.json")
+);
+var _userDashboardProgressRingDesktop = _interopRequireDefault(
+  require("./user_dashboard_progress_ring_desktop.json")
+);
+var _userDashboardProgressRingMobile = _interopRequireDefault(
+  require("./user_dashboard_progress_ring_mobile.json")
+);
+var _userDashboardProgressRingTablet = _interopRequireDefault(
+  require("./user_dashboard_progress_ring_tablet.json")
+);
+var _userDashboardWorkflowCardDesktop = _interopRequireDefault(
+  require("./user_dashboard_workflow_card_desktop.json")
+);
+var _userDashboardWorkflowCardMobile = _interopRequireDefault(
+  require("./user_dashboard_workflow_card_mobile.json")
+);
+var _userDashboardWorkflowCardTablet = _interopRequireDefault(
+  require("./user_dashboard_workflow_card_tablet.json")
+);
+var _userDashboardWorkflowRecommendDesktop = _interopRequireDefault(
+  require("./user_dashboard_workflow_recommend_desktop.json")
+);
+var _userDashboardWorkflowRecommendMobile = _interopRequireDefault(
+  require("./user_dashboard_workflow_recommend_mobile.json")
+);
+var _userDashboardWorkflowRecommendTablet = _interopRequireDefault(
+  require("./user_dashboard_workflow_recommend_tablet.json")
+);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -216,11 +288,42 @@ var _default = {
   insightsDashboardMemberList: _insightsDashboardMemberList.default,
   insightsDashboardTopMembers: _insightsDashboardTopMembers.default,
   insightsDashboardViewAssignments: _insightsDashboardViewAssignments.default,
-  insightsDashboardViewAssignmentsDetail: _insightsDashboardViewAssignmentsDetail.default,
+  insightsDashboardViewAssignmentsDetail:
+    _insightsDashboardViewAssignmentsDetail.default,
   insightsMemberInfoSidePeekChart: _insightsMemberInfoSidePeekChart.default,
   insightsMemberInfoSidePeekOverdue: _insightsMemberInfoSidePeekOverdue.default,
   insightsMemberInfoSidePeekSearches:
     _insightsMemberInfoSidePeekSearches.default,
   insightsMemberInfoSidePeekTags: _insightsMemberInfoSidePeekTags.default,
+  userDashboardBadgeSectionDesktop: _userDashboardBadgeSectionDesktop.default,
+  userDashboardBadgeSectionMobile: _userDashboardBadgeSectionMobile.default,
+  userDashboardBadgeSectionTablet: _userDashboardBadgeSectionTablet.default,
+  userDashboardNumberDesktop: _userDashboardNumberDesktop.default,
+  userDashboardNumberMobile: _userDashboardNumberMobile.default,
+  userDashboardNumberTablet: _userDashboardNumberTablet.default,
+  userDashboardProcessCardDesktop: _userDashboardProcessCardDesktop.default,
+  userDashboardProcessCardMobile: _userDashboardProcessCardMobile.default,
+  userDashboardProcessCardTablet: _userDashboardProcessCardTablet.default,
+  userDashboardProcessRecommendDesktop:
+    _userDashboardProcessRecommendDesktop.default,
+  userDashboardProcessRecommendMobile:
+    _userDashboardProcessRecommendMobile.default,
+  userDashboardProcessRecommendTablet:
+    _userDashboardProcessRecommendTablet.default,
+  userDashboardProgressBarDesktop: _userDashboardProgressBarDesktop.default,
+  userDashboardProgressBarMobile: _userDashboardProgressBarMobile.default,
+  userDashboardProgressBarTablet: _userDashboardProgressBarTablet.default,
+  userDashboardProgressRingDesktop: _userDashboardProgressRingDesktop.default,
+  userDashboardProgressRingMobile: _userDashboardProgressRingMobile.default,
+  userDashboardProgressRingTablet: _userDashboardProgressRingTablet.default,
+  userDashboardWorkflowCardDesktop: _userDashboardWorkflowCardDesktop.default,
+  userDashboardWorkflowCardMobile: _userDashboardWorkflowCardMobile.default,
+  userDashboardWorkflowCardTablet: _userDashboardWorkflowCardTablet.default,
+  userDashboardWorkflowRecommendDesktop:
+    _userDashboardWorkflowRecommendDesktop.default,
+  userDashboardWorkflowRecommendMobile:
+    _userDashboardWorkflowRecommendMobile.default,
+  userDashboardWorkflowRecommendTablet:
+    _userDashboardWorkflowRecommendTablet.default,
 };
 exports.default = _default;
