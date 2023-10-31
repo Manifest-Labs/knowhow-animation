@@ -222,6 +222,15 @@ var _userDashboardWorkflowRecommendMobile = _interopRequireDefault(
 var _userDashboardWorkflowRecommendTablet = _interopRequireDefault(
   require("./user_dashboard_workflow_recommend_tablet.json")
 );
+var _userDashboardCompleteProfileDesktop = _interopRequireDefault(
+  require("./user_dashboard_complete_profile_desktop.json")
+);
+var _userDashboardCompleteProfileMobile = _interopRequireDefault(
+  require("./user_dashboard_complete_profile_mobile.json")
+);
+var _userDashboardCompleteProfileTablet = _interopRequireDefault(
+  require("./user_dashboard_complete_profile_tablet.json")
+);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -325,5 +334,11 @@ var _default = {
     _userDashboardWorkflowRecommendMobile.default,
   userDashboardWorkflowRecommendTablet:
     _userDashboardWorkflowRecommendTablet.default,
+  userDashboardCompleteProfileDesktop:
+    _userDashboardCompleteProfileDesktop.default,
+  userDashboardCompleteProfileMobile:
+    _userDashboardCompleteProfileMobile.default,
+  userDashboardCompleteProfileTablet:
+    _userDashboardCompleteProfileTablet.default,
 };
 exports.default = _default;
