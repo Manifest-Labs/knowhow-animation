@@ -231,6 +231,15 @@ var _userDashboardCompleteProfileMobile = _interopRequireDefault(
 var _userDashboardCompleteProfileTablet = _interopRequireDefault(
   require("./user_dashboard_complete_profile_tablet.json")
 );
+var _userDashboardViewAllDesktop = _interopRequireDefault(
+  require("./user_dashboard_view_all_desktop.json")
+);
+var _userDashboardViewAllMobile = _interopRequireDefault(
+  require("./user_dashboard_view_all_mobile.json")
+);
+var _userDashboardViewAllTablet = _interopRequireDefault(
+  require("./user_dashboard_view_all_tablet.json")
+);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -340,5 +349,8 @@ var _default = {
     _userDashboardCompleteProfileMobile.default,
   userDashboardCompleteProfileTablet:
     _userDashboardCompleteProfileTablet.default,
+  userDashboardViewAllDesktop: _userDashboardViewAllDesktop.default,
+  userDashboardViewAllMobile: _userDashboardViewAllMobile.default,
+  userDashboardViewAllTablet: _userDashboardViewAllTablet.default,
 };
 exports.default = _default;
