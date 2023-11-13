@@ -29,6 +29,9 @@ var _myWorkflows = _interopRequireDefault(require("./My Workflows.json"));
 var _processManagerList = _interopRequireDefault(
   require("./Process Manager Table.json")
 );
+var _processManagerRow = _interopRequireDefault(
+  require("./process_manager_row.json")
+);
 var _recipeBrowseLoader = _interopRequireDefault(
   require("./recipePage_Browse_loader.json")
 );
@@ -261,6 +264,7 @@ var _default = {
   myProcesses: _myProcesses.default,
   myWorkflows: _myWorkflows.default,
   processManagerList: _processManagerList.default,
+  processManagerRow: _processManagerRow.default,
   recipeBrowseLoader: _recipeBrowseLoader.default,
   recipeHomeLoader: _recipeHomeLoader.default,
   toDo: _toDo.default,
