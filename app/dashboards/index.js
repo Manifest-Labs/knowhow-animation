@@ -48,6 +48,9 @@ var _workflows = _interopRequireDefault(require("./Workflows-4.json"));
 var _templateManager = _interopRequireDefault(
   require("./templateManager.json")
 );
+var _templateLibraryRow = _interopRequireDefault(
+  require("./template-library-row.json")
+);
 var _badgeWidget = _interopRequireDefault(require("./badges-widget.json"));
 var _badgeViewAll = _interopRequireDefault(require("./badges-viewall.json"));
 var _magicSearchLoaderLarge = _interopRequireDefault(
@@ -273,6 +276,7 @@ var _default = {
   workflowWhole: _workflowWhole.default,
   workflows: _workflows.default,
   templateManager: _templateManager.default,
+  templateLibraryRow: _templateLibraryRow.default,
   badgeWidget: _badgeWidget.default,
   badgeViewAll: _badgeViewAll.default,
   magicSearchLoaderLarge: _magicSearchLoaderLarge.default,
