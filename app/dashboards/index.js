@@ -246,6 +246,9 @@ var _userDashboardViewAllMobile = _interopRequireDefault(
 var _userDashboardViewAllTablet = _interopRequireDefault(
   require("./user_dashboard_view_all_tablet.json")
 );
+var _featuredTemplate = _interopRequireDefault(
+  require("./featured_template.json")
+);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -360,5 +363,6 @@ var _default = {
   userDashboardViewAllDesktop: _userDashboardViewAllDesktop.default,
   userDashboardViewAllMobile: _userDashboardViewAllMobile.default,
   userDashboardViewAllTablet: _userDashboardViewAllTablet.default,
+  featuredTemplate: _featuredTemplate.default,
 };
 exports.default = _default;
