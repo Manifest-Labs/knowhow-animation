@@ -13,6 +13,9 @@ var _assignment = _interopRequireDefault(require("./assignment.json"));
 var _bookmarkSection = _interopRequireDefault(
   require("./Bookmark Section-2.json")
 );
+var _documentAnalyzer = _interopRequireDefault(
+  require("./document_analyzer.json")
+);
 var _engagement = _interopRequireDefault(require("./engagement.json"));
 var _expertise = _interopRequireDefault(require("./Expertise-2.json"));
 var _feed = _interopRequireDefault(require("./feed.json"));
@@ -260,6 +263,7 @@ var _default = {
   assignedToMe: _assignedToMe.default,
   assignment: _assignment.default,
   bookmarkSection: _bookmarkSection.default,
+  documentAnalyzer: _documentAnalyzer.default,
   engagement: _engagement.default,
   expertise: _expertise.default,
   feed: _feed.default,
