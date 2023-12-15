@@ -253,6 +253,14 @@ var _featuredTemplate = _interopRequireDefault(
   require("./featured_template.json")
 );
 
+var templateLibraryWorkflowSidepeekTopInformation = _interopRequireDefault(
+  require("./template_library_workflow_sidepeek_top_information.json")
+);
+
+var templateLibraryWorkflowSidepeekRow = _interopRequireDefault(
+  require("./template_library_workflow_sidepeek_row.json")
+);
+
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
@@ -368,5 +376,9 @@ var _default = {
   userDashboardViewAllMobile: _userDashboardViewAllMobile.default,
   userDashboardViewAllTablet: _userDashboardViewAllTablet.default,
   featuredTemplate: _featuredTemplate.default,
+  templateLibraryWorkflowSidepeekTopInformation:
+    templateLibraryWorkflowSidepeekTopInformation.default,
+  templateLibraryWorkflowSidepeekRow:
+    templateLibraryWorkflowSidepeekRow.default,
 };
 exports.default = _default;
