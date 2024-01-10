@@ -260,6 +260,12 @@ var templateLibraryWorkflowSidepeekTopInformation = _interopRequireDefault(
 var templateLibraryWorkflowSidepeekRow = _interopRequireDefault(
   require("./template_library_workflow_sidepeek_row.json")
 );
+var requestContentProcessesRow = _interopRequireDefault(
+  require("./request_content_processes_request.json")
+);
+var requestContentSearchRow = _interopRequireDefault(
+  require("./request_content_searches_request.json")
+);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -380,5 +386,7 @@ var _default = {
     templateLibraryWorkflowSidepeekTopInformation.default,
   templateLibraryWorkflowSidepeekRow:
     templateLibraryWorkflowSidepeekRow.default,
+  requestContentProcessesRow: requestContentProcessesRow.default,
+  requestContentSearchRow: requestContentSearchRow.default,
 };
 exports.default = _default;
