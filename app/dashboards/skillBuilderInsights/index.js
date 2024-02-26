@@ -2,5 +2,12 @@ import leaderboard from "./leaderboard.json";
 import monthlyHighlights from "./monthly_highlights.json";
 import recentAssessments from "./recent_assessments.json";
 import topProcesses from "./top_processes.json";
+import userGraphTooltip from "./user_graph_tooltip.json";
 
-export { leaderboard, recentAssessments, monthlyHighlights, topProcesses };
+export {
+  leaderboard,
+  recentAssessments,
+  monthlyHighlights,
+  topProcesses,
+  userGraphTooltip,
+};
