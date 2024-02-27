@@ -4,6 +4,7 @@ import recentAssessments from "./recent_assessments.json";
 import topProcesses from "./top_processes.json";
 import userGraphTooltip from "./user_graph_tooltip.json";
 import completedCheckins from "./completed_checkins.json";
+import uncompletedCheckins from "./uncompleted_checkins.json";
 
 export {
   leaderboard,
@@ -12,4 +13,5 @@ export {
   topProcesses,
   userGraphTooltip,
   completedCheckins,
+  uncompletedCheckins,
 };
