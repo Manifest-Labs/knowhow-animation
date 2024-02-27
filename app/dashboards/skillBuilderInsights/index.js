@@ -3,6 +3,7 @@ import monthlyHighlights from "./monthly_highlights.json";
 import recentAssessments from "./recent_assessments.json";
 import topProcesses from "./top_processes.json";
 import userGraphTooltip from "./user_graph_tooltip.json";
+import completedCheckins from "./completed_checkins.json";
 
 export {
   leaderboard,
@@ -10,4 +11,5 @@ export {
   monthlyHighlights,
   topProcesses,
   userGraphTooltip,
+  completedCheckins,
 };
