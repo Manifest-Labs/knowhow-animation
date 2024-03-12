@@ -5,6 +5,7 @@ import workflowTopInformationDesktop from "./workflow_top_information_desktop.js
 import workflowHeaderMobile from "./workflow_header_mobile.json";
 import workflowTimelineMobile from "./workflow_timeline_mobile.json";
 import workflowTopInformationMobile from "./workflow_top_information_mobile.json";
+import workflowEditHeaderDesktop from "./workflow_edit_header_desktop.json";
 
 export {
   workflowFullDesktop,
@@ -14,4 +15,5 @@ export {
   workflowHeaderMobile,
   workflowTimelineMobile,
   workflowTopInformationMobile,
+  workflowEditHeaderDesktop,
 };
