@@ -10,6 +10,7 @@ We are going to have three main folders and elements: default elements (like the
 
 - app → Contains animations, graphs and explanations used exclusively inside the app.
 - landing → Contains animations, graphs and explanations used exclusively on the landing page.
+- chromeExtension → Contains animations used exclusively on the Chrome extension 
 
 Within the app folder we are going to have:
 
