@@ -25,7 +25,7 @@ func main() {
 
 	s3Client := s3.NewFromConfig(awsCfg)
 
-	directories := []string{"app", "landing"}
+	directories := []string{"app", "landing", "chromeExtension"}
 
 	for _, directory := range directories {
 		err := filepath.WalkDir(directory, func(path string, info os.DirEntry, err error) error {
