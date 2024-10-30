@@ -266,6 +266,10 @@ var requestContentProcessesRow = _interopRequireDefault(
 var requestContentSearchRow = _interopRequireDefault(
   require("./request_content_searches_request.json")
 );
+var externalImpactTopMetric = _interopRequireDefault(
+  require("./external_impact_top_metric.json")
+);
+var tableFullRow = _interopRequireDefault(require("./table_full_row.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -388,5 +392,7 @@ var _default = {
     templateLibraryWorkflowSidepeekRow.default,
   requestContentProcessesRow: requestContentProcessesRow.default,
   requestContentSearchRow: requestContentSearchRow.default,
+  externalImpactTopMetric: externalImpactTopMetric.default,
+  tableFullRow: tableFullRow.default,
 };
 exports.default = _default;
