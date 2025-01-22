@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 // App
-// Icons: Contains icons such as loaders, carrots, typing and ellipsis. 
+// Icons: Contains icons such as loaders, carrots, typing and ellipsis.
 var _carrotClose = _interopRequireDefault(require("./carrotClose.json"));
 var _carrotOpen = _interopRequireDefault(require("./carrotOpen.json"));
 var _ellipsisToX = _interopRequireDefault(require("./ellipsisToX.json"));
@@ -14,6 +14,7 @@ var _halfSecLoader = _interopRequireDefault(require("./half-sec_loader.json"));
 var _typing = _interopRequireDefault(require("./typing.json"));
 var _qrCode = _interopRequireDefault(require("./qrCode.json"));
 var _loadingWhite = _interopRequireDefault(require("./loadingWhite.json"));
+var _lock = _interopRequireDefault(require("./lock.json"));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -28,5 +29,6 @@ var _default = {
   typing: _typing.default,
   qrCode: _qrCode.default,
   loadingWhite: _loadingWhite.default,
+  lock: _lock.default,
 };
 exports.default = _default;
