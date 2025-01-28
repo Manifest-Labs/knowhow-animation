@@ -117,6 +117,9 @@ var _workflowsDashboardTemplatesLoading = _interopRequireDefault(
 var _workflowsDashboardActiveTableLoading = _interopRequireDefault(
   require("./workflows_dashboard_active_table_loading.json")
 );
+var _dashboardActiveTableLoading = _interopRequireDefault(
+  require("./dashboard_active_table_loading.json")
+);
 var _workflowsDesktopStepList = _interopRequireDefault(
   require("./workflows_desktop_step_list.json")
 );
@@ -330,6 +333,7 @@ var _default = {
     _workflowsDashboardTemplatesLoading.default,
   workflowsDashboardActiveTableLoading:
     _workflowsDashboardActiveTableLoading.default,
+  dashboardActiveTableLoading: _dashboardActiveTableLoading.default,
   workflowsDesktopStepList: _workflowsDesktopStepList.default,
   workflowsTabletStepList: _workflowsTabletStepList.default,
   workflowsMobileStepList: _workflowsMobileStepList.default,
