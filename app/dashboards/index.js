@@ -255,6 +255,18 @@ var _userDashboardViewAllTablet = _interopRequireDefault(
 var _featuredTemplate = _interopRequireDefault(
   require("./featured_template.json")
 );
+var _workforceRoleListItem = _interopRequireDefault(
+  require("./workforce_role_list_item.json")
+);
+var _workforceRoleMemberCard = _interopRequireDefault(
+  require("./workforce_role_member_card.json")
+);
+var _workforceRoleTags = _interopRequireDefault(
+  require("./workforce_role_tags.json")
+);
+var _workforceRoleDescription = _interopRequireDefault(
+  require("./workforce_role_description.json")
+);
 
 var templateLibraryWorkflowSidepeekTopInformation = _interopRequireDefault(
   require("./template_library_workflow_sidepeek_top_information.json")
@@ -398,5 +410,9 @@ var _default = {
   requestContentSearchRow: requestContentSearchRow.default,
   externalImpactTopMetric: externalImpactTopMetric.default,
   tableFullRow: tableFullRow.default,
+  workforceRoleListItem: _workforceRoleListItem.default,
+  workforceRoleMemberCard: _workforceRoleMemberCard.default,
+  workforceRoleTags: _workforceRoleTags.default,
+  workforceRoleDescription: _workforceRoleDescription.default,
 };
 exports.default = _default;
