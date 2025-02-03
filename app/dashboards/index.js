@@ -255,6 +255,16 @@ var _userDashboardViewAllTablet = _interopRequireDefault(
 var _featuredTemplate = _interopRequireDefault(
   require("./featured_template.json")
 );
+var _workforceListItem = _interopRequireDefault(
+  require("./workforce_list_item.json")
+);
+var _workforceMemberCard = _interopRequireDefault(
+  require("./workforce_member_card.json")
+);
+var _workforceTags = _interopRequireDefault(require("./workforce_tags.json"));
+var _workforceDescription = _interopRequireDefault(
+  require("./workforce_description.json")
+);
 
 var templateLibraryWorkflowSidepeekTopInformation = _interopRequireDefault(
   require("./template_library_workflow_sidepeek_top_information.json")
@@ -398,5 +408,9 @@ var _default = {
   requestContentSearchRow: requestContentSearchRow.default,
   externalImpactTopMetric: externalImpactTopMetric.default,
   tableFullRow: tableFullRow.default,
+  workforceListItem: _workforceListItem.default,
+  workforceMemberCard: _workforceMemberCard.default,
+  workforceTags: _workforceTags.default,
+  workforceDescription: _workforceDescription.default,
 };
 exports.default = _default;
